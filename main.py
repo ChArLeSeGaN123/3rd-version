@@ -9,7 +9,7 @@ class PlayerSprite(pygame.sprite.Sprite):
     super().__init__()
 
     self.image = pygame.image.load("rocket.png").convert_alpha()
-    self.image.set_Colorkey([255,255,255])
+    self.image.set_colorkey([255,255,255])
 
     self.rect = self.image.get_rect()
 
@@ -32,7 +32,7 @@ pygame.display.set_caption("Jump to escape!")
 screen  = pygame.display.set_mode((420,340))
 
 clock = pygame.time.Clock()
-player = Player()
+player = PlayerSprite()
 player_sprite = PlayerSprite()
 colour = (0,128,255)
 
