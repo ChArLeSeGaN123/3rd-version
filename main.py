@@ -61,6 +61,9 @@ if user_input[pygame.K.UP]:
 if user_input[pygame.K.DOWN]:
   player.move(0,2)
 
+if user_input[pygame.K.LEFT]:
+  player.move(-2,0)
+
 screen.fill((0,0,0))
 pygame.draw.rect(screen,colour,pygame.rect)
 pygame.display.flip()
