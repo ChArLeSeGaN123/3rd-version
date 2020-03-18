@@ -1,0 +1,11 @@
+PORT=5900
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.styleOverlay
+
+XIO:  fatal IO error 0 (Success) on X server ":0"
+      after 22 requests (22 known processed) with 0 events remaining.
